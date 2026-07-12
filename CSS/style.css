@@ -257,6 +257,7 @@ hr {
   color: #ffffff;
   border: none;
   transform: scale(1.03); 
+}
 
 .pro .person, .pro .card li {
   color: #ffffff;
@@ -272,3 +273,48 @@ hr {
   border: none;
 }
 
+.footer {
+    background: #0b1625;
+    color: #ffffff;
+    padding: 20px 300px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 45px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+.social-icons a:hover img {
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+.footer hr {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.12);
+    margin: 0 0 18px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 15px;
+    color: #b5bcc8;
+}
